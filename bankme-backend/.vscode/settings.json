@@ -1,0 +1,12 @@
+{
+    "sqltools.useNodeRuntime": true,
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "nome_bao",
+            "group": "nome_bao",
+            "database": "${workspaceFolder:bankme-backend}/prisma/dev.db"
+        }
+    ]
+}
