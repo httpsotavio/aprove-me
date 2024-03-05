@@ -14,3 +14,6 @@ CREATE TABLE "Assignor" (
     "phone" TEXT NOT NULL,
     "name" TEXT NOT NULL
 );
+
+-- CreateIndex
+CREATE UNIQUE INDEX "Assignor_email_key" ON "Assignor"("email");
