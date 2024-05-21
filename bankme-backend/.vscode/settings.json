@@ -1,4 +1,13 @@
 {
     "sqltools.useNodeRuntime": true,
-    "sqltools.connections": []
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "test",
+            "database": "${workspaceFolder:bankme-backend}/prisma/dev.db"
+        }
+    ],
+    "editor.trimAutoWhitespace": true,
+    "files.trimTrailingWhitespace": true
 }
